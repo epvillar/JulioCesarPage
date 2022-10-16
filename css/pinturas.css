@@ -1,0 +1,204 @@
+
+/**-----COURSES-----**/
+.courses {
+    margin-top: 10rem;
+}
+.courses__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.course {
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.course:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-warning);
+}
+.course:hover h4 {
+    color: var(--color-warning);
+}
+.course__info {
+    padding: 2rem;
+}
+.course__info p {
+    margin: 1.2rem 0 2rem;
+    font: 0.9rem;
+}
+footer {
+    margin-top: 2rem;
+}
+
+/*----TESTIMONIALS*/
+.testimonials__container {
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+}
+.testimonial {
+    padding-top: 2rem;
+}
+.avatar {
+    width: 100%;
+    max-width: 60vw;
+    border-radius: 5%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 1rem solid var(--color-bg1);
+}
+.testimonial__info {
+    text-align: center;
+    background: var(--color-primary);
+    padding: 2rem;
+    margin-top: 3rem;
+    position: relative;
+    width: 20rem;
+    margin-left: 40%;
+}
+.testimonial__info::before {
+    content:'';
+    display: block;
+    background: linear-gradient(
+        135deg, 
+        transparent, 
+        var(--color-primary),
+        var(--color-primary),
+        var(--color-primary)
+    );
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 48%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+
+/*----TESTIMONIALS - CON SWIPER 
+
+.testimonials__container {
+    overflow-x: hidden;
+    position: absolute
+    margin-bottom: 0;
+    max-height: 80vh;
+}
+.testimonial {
+    padding-top: 2rem;
+    display: grid;
+}
+.avatar {
+    height: 100%;
+    width: auto;
+    border-radius: 5%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 1rem solid var(--color-bg1);
+}
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+.testimonial__info {
+    justify-self: center;
+    text-align: center;
+    width: 40vw;
+}
+.testimonial__info {
+    background: var(--color-primary);
+    padding: 2rem;
+    margin-top: 3rem;
+    position: relative;
+}
+.testimonial__info::before {
+    content:'';
+    display: block;
+    background: linear-gradient(
+        135deg, 
+        transparent, 
+        var(--color-primary),
+        var(--color-primary),
+        var(--color-primary)
+    );
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 48%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+*/
+
+/*----TESTIMONIALS FRIENDS - SIN SWIPER
+.testimonials__container {
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+    height: 110vh;
+}
+.testimonial {
+    padding-top: 2rem;
+}
+.avatar {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 1rem solid var(--color-bg1);
+}
+.testimonial__info {
+    text-align: center;
+}
+.testimonial__body {
+    background: var(--color-primary);
+    padding: 2rem;
+    margin-top: 3rem;
+    position: relative;
+}
+.testimonial__body::before {
+    content:'';
+    display: block;
+    background: linear-gradient(
+        135deg, 
+        transparent, 
+        var(--color-primary),
+        var(--color-primary),
+        var(--color-primary)
+    );
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 48%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+
+*/
+
+@media screen and (max-width: 1024px) {
+    .courses {
+        margin-top: 0;
+    }
+    .courses__container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .testimonial__info {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .courses__container {
+        grid-template-columns: 1fr;
+    }
+    .testimonial__info {
+        padding: 1.2rem;
+    }
+    .testimonial__info {
+        width: 15rem;
+        margin-left: 23%;
+    }
+}
+

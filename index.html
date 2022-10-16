@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multipage educational responsive website using html, css & js</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/categories.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    
+<!--SWIPER JS, usa la opcion slide per view-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.css" integrity="sha512-ipO1yoQyZS3BeIuv2A8C5AwQChWt2Pi4KU3nUvXxc4TKr8QgG8dPexPAj2JGsJD6yelwKa4c7Y2he9TTkPM4Dg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--style>
+    body {
+        background-image: url("./img/texture2.jpg");
+    }
+</style-->
+<script src="https://kit.fontawesome.com/ff0b2befc9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4><span>CAYO </span>JULIO <span>CESAR</span></h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Historia</a></li>
+                <li><a href="pinturas.html">Pinturas</a></li>
+                <li><a href="libros.html">Libros</a></li>
+                <li><a href="courses.html">Películas</a></li>
+                <li><a href="contact.html">Contactate</a></li>
+
+            </ul>
+
+            <div id="open-menu-btn" class="button">
+                <ion-icon name="add" size="large"></ion-icon>
+            </div>
+        
+            <div id="close-menu-btn" class="button">
+                <ion-icon name="menu" size="large"></ion-icon>
+            </div>           
+        </div>
+    </nav> 
+
+    <header class="container header__container">
+        <div class="header__left">
+            <h1>Su historia</h1>
+            <p>Político y militar romano del Siglo I a.C. Nació en Roma el 13 de julio de 100 a.C. en el seno de una familia
+                patricia de escasa fortuna. Estaba emparentado con algunos de los hombres más influyentes de su época
+                y prácticamente de la nada alcanzó las más altas magistraturas del Estado romano. 
+            </p>
+            <p>Fue un líder carismático, un genio militar y un político brillante. Se convirtió en el hombre más poderoso y más rico del mundo y detentó un poder que amenazaba con destruir la 
+                República Romana. Sus ambiciones provocaron una conjura entre los defensores de la libertad, y de sus intereses, 
+                que concluyeron en su asesinato por miembros del senado.
+            </p>          
+        </div>
+
+        <div class="header__right">
+            <img src="./img/julio0.jpg" alt="Header">
+        </div>
+    </header>
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Los Primeros Años</h1>
+                <p>En 85 a.C. falleció su padre y con solo 16 años César quedó como cabeza de la familia. Eran años de guerra civil, 
+                    su tío Cayo Mario y Lucio Cornelio Cinna disputaban con Lucio Cornelio Sila y perdieron.  César que se había 
+                    casado con Cornelia la hija de Cinna se negó a divorciarse, huyó de Roma y se unió al ejército.
+                </p>
+                <a href="fq-primerosAños.html" class="btn">Ver más</a>
+            </div>
+
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><img src="./img/julio2.jpg" alt="cambiar"></span>
+                    <h5>Militar</h5>
+                    <p>Sirvió con distinción en Asia y en Cicilia, y recibió la Corona Cívica por su participación en el sitio de 
+                        Mytilene. En el año 78 a.C. a la muerte de Sila, César regresó a Roma a reconstruir su familia y patrimonio, 
+                        pues todos sus bienes habían sido confiscados por Sila. 
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><img src="./img/abogado.jpg" alt="cambiar"></span>
+                    <h5>Dolabela</h5>
+                    <p>César inició una carrera en el Foro Romano como abogado y se distinguió por su cuidada oratoria. Su primer caso
+                         fue contra un protegido de Sila -Cornelio Dolabela- que había sido proconsul en Macedonia y había 
+                        malversado fondos.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><img src="./img/piratas2.jpg" alt="cambiar"></span>
+                    <h5>Piratas</h5>
+                    <p>César decidió viajar a Rodas para estudiar filosofía y retórica con Apolonio Molón. Su barco fue asaltado por
+                        piratas y se tuvo que pagar un rescate. César organizó una fuerza naval que capturó a los piratas en su refugio
+                        y los mandó crucificar como les había prometido.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><img src="./img/esposas.jpg" alt="cambiar"></span>
+                    <h5>Cornelia</h5>
+                    <p>En el año 69 a.C. Cornelia falleció mientras daba a luz un niño muerto. César quebró las leyes de Sila organizando
+                        funerales públicos que habían sido prohibidos. Este desafío fue muy aprecido por el pueblo romano y en la misma 
+                        medida repudiado por los "optimates" la clase dominante.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Los primeros logros</h1>
+                <p>A partir del año 69 a.C. comienza a destacarse como político y luego lo hará como comandante militar. César se había 
+                    relacionado con los cónsules Pompeyo y Craso, y su amistad le serviría para lanzar su carrera politica. Craso era el
+                    hombre más rico de Roma y Pompeyo el general romano más popular en esa época.
+                </p>
+                <a href="fq-primerosLogros.html" class="btn">Ver más</a>
+            </div>
+
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><img src="./img/politico2.jpg" alt="cambiar"></span>
+                    <h5>Cuestor</h5>
+                    <p>En 69 a.C. César fue elegido cuestor y el año siguiente le correspondió un cargo en la provincia romana de Hispania
+                        Ulterior (hoy Portugal). Cuenta la leyenda que César tuvo un sueño que le predecía el dominio del mundo, después 
+                        de haber llorado ante una estatua de Alejandro el Magno por haber llegado a los 31 añoa y aún no haber logrado un éxito importante.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><img src="./img/circo.jpg" alt="cambiar"></span>
+                    <h5>Edil</h5>
+                    <p>En el año 65 a.C. asumió como edil curul en Roma. Le correspondió organizar los juegos en el Circo Máximo que implicaba
+                        utilizar fondos personales. Organizó unos juegos memorables, llegando a desviar el río para que inundar el circo y ofrecer
+                        un combate entre barcos. Su éxito como edil fue una ayuda importante para su carrera política, y 
+                        en 63 a.C. fue designado Pontifex Maximus.
+                    </p>
+                    <p></p>
+                </article>
+                
+                <article class="category">
+                    <span class="category__icon"><img src="./img/hispania.jpg" alt="cambiar"></span>
+                    <h5>Pretor</h5>
+                    <p>En 62 a.C. César fue designado propetor de Hispania Ulterior. Obtuvo la ayuda de Marco Licinio 
+                        Craso, el hombre más rico de Roma, y canceló parte de sus deudas. César lideró una rápida guerra en el norte contra dos tribus 
+                        que se habían rebelado, con el botín pudo cancelar parte de sus deudas como edil y distinguirse como lider militar y el Senado le concedió
+                        un triunfo.  
+                    </p>
+                </article>
+                
+                <article class="category">
+                    <span class="category__icon"><img src="./img/coliseo.jpg" alt="cambiar"></span>
+                    <h5>Consul</h5>
+                    <p>En el año 60 a.C. César fue electo consul, el cargo más alto en Roma. César buscó el apoyo de Pompeyo que había formado un 
+                        ejército y al servicio de Sila había vencido a su tío, Cayo Mario. El acuerdo entre César y Pompeyo se cimentó con el casamiento
+                        de Pompeyo con Julia la hija de César. A ellos se unió Craso y con dinero y soldados pasaron a dominar la política romana.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>    
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>La Guerra de las Galias</h1>
+                <p>Tras su año consular César y con el apoyo de Pompeyo y Craso, César pasó a gobernar la Galia Trasalpina (sur de Francia), La Galia Cisalpina (norte de Francia y parte de
+                    Alemania) e Lliria (la costa de Dalmacia). César todavía estaba muy endeudado y al estilo de los proconsules romanos no iba a 
+                    gobernar pacíficamente. El dinero se conseguía mediante extorsiones o aventuras militares y los helvecios de dieron rápidamente
+                    la primera oportunidad de iniciar una campaña militar y derrotarlos.
+                </p>
+                
+                <a href="fq-lasGalias.html" class="btn">Ver más</a>
+            </div>
+    
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><img src="./img/galia.jpg" alt="cambiar"></span>
+                    <h5>El Triunvirato</h5>
+                    <p>La alianza informal entre César, Craso y Pompeyo se conoce como el primer triunvirato. Los tres hombres tenían suficiente dinero
+                        e influencia política como para controlar el manejo de la política, y los soldados de Pompeyo estaban en la ciudad e intimidaban
+                        a los opositores, miembros de las familias patricias y del Senado.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><img src="./img/helvecios.jpg" alt="cambiar"></span>
+                    <h5>Los Helvecios</h5>
+                    <p>Los helvecios, boios y tulingios cruzaron a la Galia Comata escapando a la presión de otros pueblos germánicas que los atacaban 
+                        en sus tierras. Contaban con unos 100000 soldados y superaban a las legiones romanas varias veces en número.
+                        Romanos y helvecios se encontraron en las cercanías de Bibracte y fueron arrasados por las legiones. 
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><img src="./img/guerra.jpg" alt="cambiar"></span>
+                    <h5>Los Belgas</h5>
+                    Las numerosas tribus belgas temían que César marchara contra ellos y formaron una gran alianza. En el invierno del 58-57 a.C. César escuchó rumores
+                        sobre la intención de los belgas de atacar a los romanos. En la batalla del río Sabis los romanos fueron tomados por 
+                        sorpresa y sólo la sangre fría de su general y el valor y disciplina de sus legiones convirtió una derrota en un 
+                        aplastante triunfo.  
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><img src="./img/venetos.png" alt="cambiar"></span>
+                    <h5>Los Venetos</h5>
+                    <p>César atacó a los vénetos para vengar a oficiales romanos tomados prisioneros para forzar un intercambio de rehenes. Los vénetos eran 
+                        muy buenos marineros y tenían mejores barcos, pero la perseverancia y la ingeniería de los romanos permitió que vencieran a la flota gala en la batalla de
+                        Morbihan.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><img src="./img/britanos.jpg" alt="cambiar"></span>
+                    <h5>Los Britanos</h5>
+                    <p>César hizo dos campañas contra el sur de la isla de Britania (Gran Bretaña) en los años 55 y 54 a.C. César alegaba que los britanos habían estado apoyando a los belgas en
+                         su campaña contra Roma. Los soldados galos que huían de la batalla se refugiaban a los asentamientos galos en Britania -los
+                          belgas había cruzado el canal a Britania y habían establecido colonias costeras.
+                    </p>
+                </article>
+
+
+        
+                <article class="category">
+                    <span class="category__icon"><img src="./img/vercingetorix.jpg" alt="cambiar"></span>
+                    <h5>Los Avernos</h5>
+                    <p>Vercingétoris unió a la mayoría de las tribus galas para enfrentar a César y expulsarlo. Fue vencido en la batalla de Alessia
+                        en 52 a.C., apresado, encarcelado y ejecutado en 46 a.C. tras celebrarse el triunfo de César. Sus hijos fueron criados como romanos. 
+                    </p>
+                    
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><img src="./img/plutarco.jpg" alt="cambiar"></span>
+                    <h5>El Balance</h5>
+                    <p>En las guerras de la Galias entre 58 a 49 a.C., según Plutarco, César tomó 800 ciudades, sometió 300 tribus, tomó un millón de exclavos y 3 millones de galos murieron. Plinio habla de más de un millón de muertos y otro tantos prisioneros. Patérculo dice que 
+                    murieron 400000 galos y muchos más fueron prisioneros. 
+                    </p>
+                    
+                    </article>       
+            </div>
+        </div>
+    </section>
+  
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>La Guerra Civil</h1>
+                <p>Pese a los éxitos de César en Galia, en 56 a.C. el Triunvirato se tambaleaba. A pesar de sus triunfos seguía siendo impopular
+                    en Roma entre los que temían su ambición. Pompeyo desconfiaba de Craso y de César. En 54 a.C. moría Julia la esposa de Pompeyo
+                    e hija de César. En en año 53 a.C. en la batalla de Carrahe moría Craso que había ido a Persia en busca de gloria. Todo esto
+                    terminó por romper el Triunvirato.
+                </p>
+                <a href="fq-guerraCivil.html" class="btn">Ver más</a>
+            </div>
+    
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><img src="./img/rubicon.jpg" alt="cambiar"></span>
+                    <h5>El Rubicón</h5>
+                    <p>Con César en la Galia el Senado trató por todos los medios de debilitarlo, quitarle el mando de las legiones y su
+                        cargo de gobernador. En 49 a.C. César llegó con una legión al río Rubicón, la frontera entre la Galia e Italia y el 10 de enero
+                        recibió la noticia que Pompeyo había recibido poderes excepcionales y pronunció la famosa frase "la suerte está hechada" 
+                        y cruzaron el Rubicón y marcharon sobre Roma. 
+                    </p>
+                </article>
+            
+                <article class="category">
+                    <span class="category__icon"><img src="./img/pompeyo0.jpg" alt="cambiar"></span>
+                    <h5>Pompeyo</h5>
+                    <p>Los conservadores huyeron de la ciudad y César se dirigió a Hispania para derrotar a las legiones de Pompeyo que estaban a 
+                        su retaguardia y los derrotó en la batalla de Llerda (cerca de Lérida). Luego persiguió a Pompeyo que estaba en Grecia y 
+                        en 48 a.C. lo derrotó definitivamente en la batalla de Farsalia. Pompeyo y sus seguidores lograron huir hacia Africa.
+                    </p>
+                </article>
+            
+                <article class="category">
+                    <span class="category__icon"><img src="./img/cleopatra1.jpg" alt="cambiar"></span>
+                    <h5>Dictador</h5>
+                    <p>De regreso en Roma César fue nombrado dictador y se dirigió a Egipto en busca de Pompeyo, pero fue sorprendido por la noticia 
+                        este había sido asesinado. César intervino en a política egipcia en favor de Cleopatra que sustituyó a su hermano Ptolomeo XIII.
+                        César y Cleopatra tuvieron un hijo, Cesarión, luegi Ptolomeo XV, que sería el último faraón de Egipto.
+                    </p>
+                </article>
+            
+                <article class="category">
+                    <span class="category__icon"><img src="./img/vine.jpg" alt="cambiar"></span>
+                    <h5>El regreso</h5>
+                    <p>Después de las campañas en Egipto César se dirigió a Asia donde derrotó a Farnaces en la batalla de Zela, donde pronunció la famosa
+                        frase "vine, vi y vencí". Después regresó al norte de Egipto para vencer a los romanos conservadores que allí se habian refugiado
+                        y los venció en la batalla de Tarseo en 46 a. C. Ahí desaparecieron sus más encarnizados enemigos.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+      
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>El Poder Absoluto</h1>
+                <p>Cesar regresó a Roma en 46 a. C. y la victoria total de su facción lo dotó de un poder enorme. El Senado legitimó su victoria nombrándolo 
+                    dictador por tercera vez por un plazo sin precedentes de 10 años. César celebró sus triunfos con cuatro desfiles, galos, egipcios, asiáticos
+                    y africados desfilaron encadenados, mienbras jirafas, carros de guerra y lagos artificiales dejaban boquiabiertos a los romanos.
+                </p>
+                <a href="fq-poderAbsoluto.html" class="btn">Ver más</a>
+            </div>
+    
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><img src="./img/legionarios.jpg" alt="cambiar"></span>
+                    <h5>Recompensas</h5>
+                    <p> César no olvidó recompensar a sus tropas, cada legionario recibió 5000 denarios -equivalenes a lo que ganarían en 16 años de servicio-, a 
+                        cada centurión 10000, a cada tribuno y prefecto 20000. También les asignó tierras, aunque no cercanas a Roma. Distribuyó trigo al pueblo, 
+                        rebajó el alquiler de las casas, distribuyó carnes entre el pueblo, y organizó espectáculos de todo tipo.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><img src="./img/forocesar.jpg" alt="cambiar"></span>
+                    <h5>Roma </h5>
+                    <p>César emprendió numerosos proyectos de reforma de los edificios públicos de Roma y creó otros muchos nuevos, en general en torno al campo de
+                        Marte y el complejo del Foro: el Foro Julio o Foro de César en las pendientes del Capitolio, la estatua ecuestre de César en el centro de la
+                         plaza. Otras de sus importantes reformas fue la actualización del calendario romano y de la constitución.
+                    </p>
+                </article>
+            
+                <article class="category">
+                    <span class="category__icon"><img src="./img/pompeyo2.jpg" alt="cambiar"></span>
+                    <h5>Rebelión</h5>
+                    <p>En 46 a. C. estalló una nueva rebelión en Hispania, liderada por los hijos de Pompeyo que reunieron un ejército de 13 legiones y tomaron el 
+                        control de casi toda la Hispania Ulterior. César regresó a Hispania y tras algunas escamaruzas los derrotó en la batalla de Munda. César no 
+                        proscribió a sus enemigos y perdonó a casi todos. En ese momento ya no tenía ninguna oposición importante.
+                    </p>
+                </article>
+                        
+                <article class="category">
+                    <span class="category__icon"><img src="./img/cesaraugusto.jpg" alt="cambiar"></span>
+                    <h5>Testamento</h5>
+                    <p>Al regresar a Italia en 45 a. C. César hizo conocer sus deseos, nombró a su sobrino nieto Octavio -luego César Augusto- como su principal 
+                        heredero, legándole sus bienes y su nombre. Para el caso en que Octavio muriera antes que César, el heredero sería Decimo Junius Brutus Albinos. 
+                        También legó importantes recursos para los ciudadanos de Roma.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+      
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>El Final</h1>
+                <p>Cuando regresó a Roma César realizó algo inédito: organizó un triunfo romano para celebrar una victoria sobre sus compatriotas, especialmente 
+                    de una de las familias más de renombre de la sociedad. Esto generó un gran descontento entre los romanos. El caudillo había celebrado triunfos 
+                    antes por sus victorias, pero sobre extranjeros: celtas, egipcios, pónticos y númidas, la justificación que dió fue que había 
+                    luchado contra rebeldes hispanos apoyados por romanos traidores.                   
+                </p>
+                <a href="fq-elFinal.html" class="btn">Ver más</a>
+            </div>
+    
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><img src="./img/senado2.jpg" alt="cambiar"></span>
+                    <h5>Dictador Vitalicio</h5>
+                    <p>César había usado sus poderes dictatoriales para incrementar el número de senadores a 900, con una mayoría de sus partidarios. El senado había perdido su 
+                        poder, se había convertido en una asamblea consultiva que aprobaba las resoluciones. Resoluciones que César como dictador podía pasar por alto, 
+                        sin dar siquiera una explicación. Finalmente en 44 a. C. un mes antes de su asesinato de declaró dictador a perpetuidad.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><img src="./img/julio5.jpg" alt="cambiar"></span>
+                    <h5>Rey de facto</h5>
+                    <p>De hecho César poseía todos los poderes de un monarca, solo le faltaba el título. Tenía el derecho exclusivo de disponer de las financias del estado, preparaba la lista de 
+                        los candidatos al consulado y demás magistraturas. El hacía que todos sus actos fueran ratificados por el senado, los funcionarios eran obligados 
+                        a prestar juramento de no oponerse a ninguna medida tomada por él ....
+                    </p>
+                </article>
+            
+                <article class="category">
+                    <span class="category__icon"><img src="./img/senadores.jpg" alt="cambiar"></span>
+                    <h5>Complot</h5>
+                    <p>La consecuencia fue que comenzó una campaña para preparar la opinión pública, que era muy hostil a la idea de volver a la monarquía. Sus enemigos 
+                        esperaban poder arruinarlo más fácilmente explotando su ambición y se organizaron para actuar. 
+                    </p>
+                </article>
+                        
+                <article class="category">
+                    <span class="category__icon"><img src="./img/asesinato.jpg" alt="cambiar"></span>
+                    <h5>Las Idus de Marzo</h5>
+                    <p>El 15 de marzo convocaron a César al Foro del senado para leerle una petición escrita por ellos. Un grupo de senadores
+                        interceptó a César al pasar por el Teatro de Pompeyo, le entregaron la petición y lo atacaron con dagas. Brutus fue uno de ellos, César recibió 23 puñaladas y 
+                        cayó muerto.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+ 
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" claa="footer__logo"><h4>EGATOR</h4></a>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, autem!
+                </p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div class="">
+                    <p>+01 234 567 8910</p>
+                    <p>shakir260@gmail.com</p>
+                </div>
+                <ul class="footer__socials">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer__copyright">
+            <small>Copyright &copy; EGATUR tutorial</small>
+        </div>
+    </footer>
+
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
